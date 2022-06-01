@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="./css/cndk.beforeafter.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style-catalog.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form-catalog.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/media-form.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <div class="header__logo">
+          <a href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="menu-catalog header__menu">
+          <ul class="header__list">
+            <li><a href="./index.html" class="header__link">ГЛАВНАЯ</a></li>
+            <li><a href="./catalog.html" class="header__link">КАТАЛОГ ПРОДУКЦИИ</a></li>
+            <li><a href="#" class="list-active header__link" >ПОДБОР ПРОГРАММЫ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="form-one">
+    <div class="container">
+      <div class="form-one__top">
+        <div class="form-one__title catalog__title">
+          Подбор программы
+        </div>
+        <div class="form-one__subtitle">
+          Заполните анкету, и мы подберем
+          программу питания для вашего кота
+        </div>
+      </div>
+      <form class="form">
+        <div class="form__inner">
+          <div class="form__inner-left">
+            <div class="row1">
+              <label for="name">Имя:*</label>
+              <input id="name" type="text" name="name" placeholder="Барсик">
+            </div>
+            <div class="row1">
+              <label for="weight">Вес:*</label>
+              <input id="weight" type="number" name="weight" placeholder="7">
+            </div>
+            <div class="row1">
+              <label for="age">Возраст:*</label>
+              <input id="age" type="number" name="age" placeholder="4">
+            </div>
+          </div>
+          <div class="form__inner-right">
+            <label for="choise-1">
+              <input class="form__radio" id="choise-1" type="radio" value="weight-loss" name="nameradio">
+              <span>похудение</span>
+            </label>
+            <label for="choise-2">
+              <input class="form__radio" id="choise-2" type="radio" value="weight-gain" name="nameradio">
+              <span>набор массы</span>
+            </label>
+            <label for="choise-3">
+              <input class="form__radio" id="choise-3" type="radio" value="Don't-know" name="nameradio">
+              <span>Не знаю (Нужен ваш совет)</span>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="information additional">
+    <div class="information-line additional__top-line"></div>
+    <div class="container">
+      <div class="information__top additional__top">
+        <div class="information__title additional__title">
+          Контактные данные (владельца кота)
+        </div>
+      </div>
+      <form class="form">
+        <div class="information__inner">
+          <div class="information__box row1">
+            <label for="email">E-MAIL:*</label>
+            <input id="email" type="email" name="email" placeholder="hello@gmail.com">
+          </div>
+          <div class="information__box row1">
+            <label for="tel">телефон:*</label>
+            <input id="tel" type="tel" name="tel" placeholder="8(999)888-77-66">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="comment additional">
+    <div class="comment-line additional__top-line"></div>
+    <div class="container">
+      <div class="comment__top additional__top">
+        <div class="comment__title additional__title">
+          Комментарий
+        </div>
+      </div>
+      <form class="form">
+        <div class="comment__inner">
+          <div class="comment__box">
+            <textarea name="comment" id="comment" cols="30" rows="10">
+              Расскажите обо всех повадках кота
+            </textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="extra additional">
+    <div class="extra-line additional__top-line"></div>
+    <div class="container">
+      <div class="extra__top additional__top">
+        <div class="extra__title additional__title">
+          Дополнительно
+        </div>
+      </div>
+      <form class="form">
+        <div class="extra__inner">
+          <div class="extra__box">
+            <div class="extra__box-inner">
+              <input type="checkbox" name="sweetener" id="sweetener">
+              <label for="sweetener">сахарозаменитель</label>
+            </div>
+            <div class="extra__box-inner">
+              <input type="checkbox" name="water" id="water">
+              <label for="water">питьевая вода</label>
+            </div>
+            <div class="extra__box-inner">
+              <input type="checkbox" name="milk" id="milk">
+              <label for="milk">молоко</label>
+            </div>
+            <div class="extra__box-inner">
+              <input type="checkbox" name="vitamin" id="vitamin">
+              <label for="vitamin">витамины</label>
+            </div>
+          </div>
+          <div class="extra__row">
+            <div class="extra__btn">
+              <a href="#" class="">
+                отправить заявку
+              </a>
+            </div>
+            <div class="extra__add">
+              *-обязательное поле
+            </div>
+          </div>
+        </div>   
+      </form>
+    </div>
+  </section>
+
+  <section class="route">
+    <div class="route__background">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d974.7956754575608!2d123.49330009249039!3d12.235905465630857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1652107625237!5m2!1sru!2sby"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <div class="container">
+        <div class="route__box">
+          <div class="route__inner">
+            <div class="route__invitation">
+              приглашаем
+              к сотрудничеству
+              дилеров!
+            </div>
+            <div class="route__address">
+              ул. Большая <br>
+              Конюшенная, д. 19/8
+              <br>
+              <br>
+              Санкт-Петербург
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__back">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__logo">
+            <img src="img/footer-logo 2.png" alt="">
+          </div>
+          <div class="footer__media">
+            <img src="img/icon_vkontakte.png" alt="">
+            <img src="img/Vector.png" alt="">
+            <img src="img/icon_facebook.png" alt="">
+          </div>
+          <div class="footer__originator">
+            <img src="img/logo_html.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

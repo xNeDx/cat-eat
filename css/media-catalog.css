@@ -1,0 +1,133 @@
+@media (max-width: 1280px){
+  .additional__row{
+    display: block;
+  }
+  .additional__all {
+    text-align: center;
+    padding: 0;
+    background-image: url(../img/bg_media.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.additional__all img{
+  padding-top: 20px;
+  padding-left: 0;
+}
+.additional__all-text a{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+}
+@media (max-width: 768px){
+  .additional__btn a{
+    padding: 10px 40px;
+  }
+}
+@media (max-width: 620px){
+  .additional__inner{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 531px){
+  .catalog__title{
+    text-align: center;
+    font-size: 46px;
+    padding: 30px 0;
+  }
+  .catalog__row{
+    justify-content: center;
+  }
+  .catalog__item{
+    margin: 25px auto;
+    max-height: 240px;
+    max-width: 320px;
+    width: 100%;
+  }
+  .catalog__add-img{
+    display: none;
+  }
+  .catalog__item img {
+    position: absolute;
+    max-height: 100px;
+    left: -140px;
+    bottom: 100px;
+  }
+  .catalog__name{
+    padding-top: 20px;
+    padding-left: 140px;
+  }
+  .catalog__name br{
+    display: none;
+  }
+  .catalog__review{
+    padding-left: 140px;
+    border: none;
+  }
+  .catalog__review{
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .catalog__btn{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .catalog__add-name,
+  .catalog__add{
+    padding-left: 0;
+  }
+  
+  .catalog__add-text{
+    text-align: center;
+  }
+  .catalog__add-btn{
+    margin-top: 40px;
+  }
+  .additional{
+    margin-top: 30px;
+  }
+  .additional__top-line{
+    display: none;
+  }
+  .additional__title{
+    font-size: 30px;
+    padding: 0;
+    left: 20px;
+  }
+}
+@media (max-width: 347px){
+  .catalog__add-name,
+  .catalog__add,
+  .catalog__add-text{
+    padding: 10px 0 !important;
+  }
+  .catalog__add-btn{
+    margin-top: 20px;
+  }
+  .catalog__name{
+    padding-left: 120px;
+  }
+  .catalog__review{
+    padding-left: 120px;
+  }
+  .catalog__item{
+    padding: 20px 20px;
+  }
+  .catalog__mass-n,
+  .catalog__taste-n,
+  .catalog__cost-n{
+    padding-left: 20px;
+  }
+  .additional__row{
+    padding-top: 80px;
+  }
+}
+@media (max-width: 320px){
+  .catalog__name{
+    padding-left: 100px;
+  }
+  .catalog__review{
+    padding-left: 100px;
+  }
+}

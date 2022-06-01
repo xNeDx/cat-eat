@@ -1,0 +1,149 @@
+.form-one__subtitle {
+  max-width: 323px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.form {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.form__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+
+
+.form__inner-left {
+  max-width: 568px;
+  width: 100%;
+}
+.row1{
+  height: 52px;
+  display: flex;
+  align-items: center;
+  padding: 9px 0;
+}
+.row1 input{
+  display: block;
+  border: 1px solid #e7e7e7;
+  flex: 1 1 auto;
+  padding-left: 10px;
+  margin-left: 15px;
+  height: 100%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form__inner-right {
+  position: relative;
+  max-width: 568px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e7e7e7;
+  margin: 9px 0 8px 60px;
+}
+.form__inner-right label{
+  padding-top: 10px;
+}
+.form__inner-right span{
+  display: block;
+  padding-left: 90px;
+}
+
+.form__radio{
+  position: absolute;
+  left: 30px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+.information__inner{
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.information__box {
+  max-width: 570px;
+  width: 100%;
+  padding-left: 10px;
+}
+.comment__box{
+  padding: 70px 0;
+}
+.comment__box textarea{
+  display: block;
+  border: 1px solid #e7e7e7;
+  padding: 10px;
+  height: 174px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.extra__inner{
+  padding: 70px 0;
+}
+.extra__box{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.extra__box label{
+  padding-left: 50px;
+}
+.extra__box input{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.extra__row{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0 30px 0;
+}
+.extra__btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 570px;
+  height: 50px;
+  background-color: #68B738;
+}
+.extra__btn a{
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.extra__add{
+  position: absolute;
+  font-family: 'Arial' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  top: 88px;
+  left: 670px;
+}
+
+nav a{
+  border-bottom: 2px solid transparent ;
+}
+nav a:hover,
+.list-active{
+  border-bottom: 2px solid #68B738 ;
+}
